@@ -8,7 +8,12 @@ import Contact from "./routes/Contact";
 export default function App() {
   return (
     <div className="App">
-      <h1>Travel Here</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }

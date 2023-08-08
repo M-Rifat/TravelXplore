@@ -1,10 +1,16 @@
 import "./HeroStyles.css";
+import { Link } from "react-router-dom";
 
 function Hero(props) {
   return (
     <>
-      <div>
-        <h1>Your Code Here</h1>
+      <div className={props.classVar}>
+        <img src={props.introImg} alt="HeroImage" />
+         <div className="hero-text">
+          <h1>{props.title}</h1>
+          <p>{props.text}</p>
+          <Link to={props.url} className={props.btnClass}>{props.btnText}</Link>
+         </div>
       </div>
     </>
   );
