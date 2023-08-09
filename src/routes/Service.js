@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import TripData from "../components/TripData";
 
-import aboutImg from "../assets/place10.jpg";
+import aboutImg from "../assets/service.jpg";
 
 function Service() {
   return (

@@ -13,8 +13,9 @@ function Home() {
       <Hero
       classVar="hero"
       introImg={introImg}
-      title="Your Journey Makes Story"
-      text="Find Your Favourite Destination"
+      title="Welcome to TravelXplore"
+      title2="Embark on Journeys Beyond the Ordinary!"
+      text="Every journey becomes a unique story. Find Your Favourite Destination"
       btnText="Travel Plan"
       url="/"
       btnClass="styleButton"
