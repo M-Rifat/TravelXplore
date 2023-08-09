@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar"; 
 import Trip from "../components/Trip";
 
-import introImg from "../assets/12.jpg";
+import introImg from "../assets/intro.jpg";
 
 function Home() {
   return (
