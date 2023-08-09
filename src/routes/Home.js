@@ -1,10 +1,10 @@
-import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar"; 
-import Trip from "../components/Trip";
+import TripData from "../components/TripData";
 
 import introImg from "../assets/intro.jpg";
+import DestinationData from "../components/DestinationData";
 
 function Home() {
   return (
@@ -19,6 +19,9 @@ function Home() {
       url="/"
       btnClass="styleButton"
       />
+      <DestinationData/>
+      <TripData/>
+      <Footer/>
     </>
   );
 }

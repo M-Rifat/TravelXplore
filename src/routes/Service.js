@@ -1,13 +1,17 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import AboutImg from "../assets/night.jpg";
 import Footer from "../components/Footer";
-import Trip from "../components/Trip";
+import TripData from "../components/TripData";
+
+import aboutImg from "../assets/place10.jpg";
 
 function Service() {
   return (
     <>
-      <h1>Call The Components</h1>
+      <Navbar />
+      <Hero classVar="hero-about" introImg={aboutImg} title="#Service" />
+      <TripData/>
+      <Footer/>
     </>
   );
 }
