@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="top">
         <div>
           <h1>TravelXplore.</h1>
-          <p>Choose Your Favourite Places</p>
+          <p>Explore. Discover. Adventure.</p>
         </div>
         <div>
           <Link to="/">
@@ -28,7 +28,7 @@ const Footer = () => {
         
         <div>
           <h4>Company</h4>
-          <a href="/">About Us</a>
+          <a href="/about">About Us</a>
           <a href="/">Career</a>
           <a href="/">Advertising</a>
           <a href="/">Feedback</a>

@@ -23,7 +23,7 @@
 
 .nav-menu{
     display: grid;
-    grid-template-columns: repeat(6,auto);
+    grid-template-columns: repeat(7,auto);
     gap: 10px;
     align-items: center;
     list-style: none;
@@ -40,6 +40,10 @@
 
 .nav-links i{
     padding-right: 10px;
+}
+
+.Nfont{
+    text-transform: uppercase;
 }
 
 .nav-links:hover{

@@ -44,6 +44,30 @@
     padding: .9rem 0 .2rem 0;
 }
 
+.section-p1 {
+    padding: 40px 80px;
+}
+
+
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #003a64;
+    padding: 15px 20px;
+    margin-right: 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600;
+}
+
 @media screen and (max-width:850px) {
     .trip{
         margin: 4rem 2rem;
@@ -56,5 +80,9 @@
     .t-card{
         width: 100%;
         margin-bottom: 1.5rem;
+    }
+
+    .section-p1 {
+        padding: 40px 40px;
     }
 }
