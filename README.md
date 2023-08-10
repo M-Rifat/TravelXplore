@@ -12,8 +12,9 @@ TravelXplore is a responsive web application built with **React** that aims to p
 
 >>>>  **Email.js**<br>
 <br>
->>  <img src="https://github.com/M-Rifat/TravelXplore/blob/main/src/assets/ss/s1.jpg" width="370" height="100%"/>
 
->> <img src="https://github.com/M-Rifat/TravelXplore/blob/main/src/assets/ss/s2.jpg" width="370" height="100%"/>
+>> <img src="https://github.com/M-Rifat/TravelXplore/blob/main/src/assets/ss/s1.jpg"/>
+
+>> <img src="https://github.com/M-Rifat/TravelXplore/blob/main/src/assets/ss/s2.jpg"/>
 
  Working on adding new features!
