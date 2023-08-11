@@ -4,6 +4,7 @@
 
 .destination h1{
     font-size: 3rem;
+    color: #19191a;
 }
 
 .first-des{
@@ -56,6 +57,9 @@
 @media screen and (max-width:850px) {
     .destination{
         margin: 4rem 2rem;
+    }
+    .destination h1{
+        font-size: 2.8rem;
     }
     .first-des{
         display: flex;

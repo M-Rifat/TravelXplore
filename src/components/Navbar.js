@@ -10,14 +10,12 @@ const Navbar = () => {
 
   const handleClick = () => {
     setClicked(!clicked);
-    window.location.href = "/";
   };
 
   return (
     <nav className="NavbarItems">
-      <h1 onClick={handleClick} className="navbar-logo">
-        TravelXplore.
-      </h1>
+      <h1 className="navbar-logo">TravelXplore.</h1>
+      
 
       <div className="menu-icons" onClick={handleClick}>
         <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
@@ -32,6 +30,7 @@ const Navbar = () => {
             </Link>
           </li>
         ))}
+
 
         {isAuthenticated && <p className="nav-links Nfont">{user.nickname}</p>}
 

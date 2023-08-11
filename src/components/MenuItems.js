@@ -24,7 +24,7 @@ export const MenuItems = [
      icon : "fa-solid fa-address-book"
   },
   {
-     title : "Sign Up",
+     title : "Log In",
      url : "https://dev-muh3hrbwrspmymxy.us.auth0.com/u/login?state=hKFo2SBBVG45ZTdSbUU2OWNaclMyT2JGYnVZcG9LZ21QdkpWeqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDVBYVotbWdKU1RIUUhNcnVoZ2doTDFPM0lhX3pocjFSo2NpZNkgMmdMYVJabWdNMURmS3dya0xINzFVQ3hGS0hhMFpXcUs",
      cName : "nav-links-mobile",
   },
