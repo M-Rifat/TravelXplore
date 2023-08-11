@@ -53,7 +53,7 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <a href="/">Phone: +880 1725028366</a>
           <a href="/">travelxplore.com.bd</a>
-          <a href="/">travel-xplore.vercel.app/</a>
+          <a href="/">travel-xplore.vercel.app</a>
         </div>
 
       </div>
