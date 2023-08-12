@@ -1,6 +1,9 @@
 # TravelXplore
 ![TravelXplore](https://github.com/M-Rifat/TravelXplore/blob/main/public/fav.png)
+
+--------------------------------------------
 # website: https://travel-xplore.vercel.app/
+--------------------------------------------
 
 - 🌍 Welcome to TravelXplore – Your Ultimate Travel Companion!<br>
  
