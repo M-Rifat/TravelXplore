@@ -5,8 +5,7 @@ function AboutUs() {
     <div className="about-container">
       <h1>Our History</h1>
       <p>
-        "Welcome to the heart of our project! The 'About' page is where we
-        unveil the essence and purpose of this endeavor. Our project, powered by
+        "Welcome to the heart of our project! Our project, powered by
         a synergy of cutting-edge technologies, is a testament to innovation,
         creativity, and diligent craftsmanship. With the fusion of React, Auth0,
         and Email.js, we've curated an exceptional digital experience that
