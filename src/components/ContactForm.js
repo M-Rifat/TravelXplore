@@ -27,7 +27,7 @@ function ContactForm() {
       <form className="form" ref={form} onSubmit={sendEmail}>
         <input type="text" name="user_name" placeholder="Name" required />
         <input type="email" name="user_email" placeholder="Email" required/>
-        <input type="text" name="subject" placeholder="Subject" />
+        <input type="number" name="phone" placeholder="Phone" />
         <textarea name="message" id=""  rows="4" placeholder="Message" required></textarea>
         <button type="submit">Send Message</button>
       </form>

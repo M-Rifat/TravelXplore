@@ -4,13 +4,13 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 
-import aboutImg from "../assets/contact.jpg";
+import contactImg from "../assets/contact.jpg";
 
 function Contact() {
   return (
     <>
       <Navbar />
-      <Hero classVar="hero-about" introImg={aboutImg} title="#Contact" />
+      <Hero classVar="hero-about" introImg={contactImg} title="#Contact" />
       <ContactForm />
       <Footer />
     </>
