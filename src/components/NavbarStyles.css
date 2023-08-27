@@ -128,7 +128,7 @@ button:hover{
         background: #e3f0f0;
     }
 
-    button{
+   .NavbarItems button{
         text-align: center;
         padding: 1.5rem;
         margin: auto;

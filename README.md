@@ -14,6 +14,8 @@ TravelXplore is a responsive web application built with **React** that aims to p
 >>>> 🔒 **Auth0** <br>
 
 >>>> 💌 **Email.js** <br>
+
+>>>> ☀️ **Weather API** <br>
 <br>
 
 >> <img src="https://github.com/M-Rifat/TravelXplore/blob/main/src/assets/ss/s1.jpg" width="600" height="80%"/> 
