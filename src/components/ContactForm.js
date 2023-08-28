@@ -10,7 +10,7 @@ function ContactForm() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_2x5ec5x', 'template_czurh0w', form.current, 'TkuPZ_W0E1-Vj_H_h')
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
           if(confirm('Message sent Successfully...')){
